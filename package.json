@@ -1,0 +1,37 @@
+{
+  "name": "monorail-mcp-server",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol (MCP) server that allows you to get quotes, trade transactions and token information from Monorail's APIs",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "monorail": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monorail-xyz/mcp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monorail-xyz/mcp-server/issues"
+  },
+  "homepage": "https://github.com/monorail-xyz/mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "axios": "^1.8.4",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
