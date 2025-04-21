@@ -31,7 +31,7 @@ cd monorail-mcp-server
 npm install
 ```
 
-**3. Run `npm run build` to build the project**
+**3. Build the project**
 
 ```shell
 npm run build
