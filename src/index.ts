@@ -13,7 +13,7 @@ import axios from "axios";
 
 // API endpoints
 const API_ENDPOINTS = {
-    QUOTE_API: "https://testnet-pathfinder-v2.monorail.xyz",
+    QUOTE_API: "https://testnet-pathfinder.monorail.xyz",
     DATA_API: "https://testnet-api.monorail.xyz",
 };
 
@@ -212,7 +212,7 @@ class MonorailQuoteApi {
     private dataApi: MonorailDataApi;
 
     constructor(baseUrl: string, dataApi: MonorailDataApi) {
-        this.baseUrl = baseUrl + "/v1/quote";
+        this.baseUrl = baseUrl + "/v4/quote";
         this.dataApi = dataApi;
     }
 
